@@ -1,9 +1,9 @@
 body {
-    font-family: "Roboto", "Open Sans", "Cabin", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    letter-spacing: 2%;
     color: #434455;
+    background-color: #FFFFFF;
     width: 1440px;
 }
 
@@ -30,25 +30,25 @@ li {
     border-bottom: 1px solid #E7E9FC;
 }
 
-.logo-link {
+.logo {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
 }
 
-.logo-web {
-    color: #4D5AE5;
-    text-transform: uppercase;
-}
 .logo-studio {
     color: #2E2F42;
-    text-transform: uppercase;
 }
 
-.navigation a {
+.nav-list-item {
     color: #2E2F42;
     font-weight: 500;
     line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .navigation a:hover,
@@ -60,13 +60,20 @@ li {
     text-decoration: underline #404BBF;
 }
 
-.contacts a {
+.contacts {
     font-style: normal;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #434455;
 }
-.contacts a:hover {
+
+.contacts-item {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    }
+}
+
+.contacts a:hover,
+.contacts a:focus {
     color: #404BBF;
 }
 
@@ -84,8 +91,9 @@ li {
 h1 {
     font-weight: bold;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     text-align: center;
+    letter-spacing: 0.02em;
     margin: auto;
     color: #FFFFFF
     
@@ -93,18 +101,16 @@ h1 {
 
 .order-service-button {
     background-color: #4D5AE5;
-    border: none;
-    border-radius: 4px;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
-    line-height: 24px; 
-    letter-spacing: 4%;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
     cursor: pointer;
 }
+
+.order-service-button:hover,
 .order-service-button:active {
     background-color: #404BBF;
 }
@@ -121,7 +127,7 @@ h1 {
     background-color: #FFFFFF;
 }
 
-.section-title {
+.benefits-title {
     text-align: center;
     font-weight: bold;
     font-size: 36px;
@@ -132,62 +138,70 @@ h1 {
     color: #2E2F42;
     font-weight: 500;
     font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 .list-item-text {
-    width: 264px;
+    font-size: 16px;
     line-height: 1.5;
     color: #434455;
+    letter-spacing: 0.02em;
 }
 
 /* Our Team */
 
 .container-team {
-    display: flex;
-    box-sizing: border-box;
-    flex-direction: column;
     background-color: #F4F4FD;
 }
 
-
-.team-list-item {
-    background-color: #FFFFFF;
-    box-shadow: 1px 1px 3px #8E8F99;
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
     text-align: center;
-    border-radius: 5px;
-    
+    text-transform: capitalize;
+    letter-spacing: 0.02em;
+    color:#2E2F42
 }
 
 /* Our portfolio */
 
 .container-portfolio {
-    display: flex;
-        box-sizing: border-box;
-        flex-direction: column;
         background-color: #FCFCFC;
     }
 
-.portfolio-list-item {
-    background-color: #FFFFFF;
-    padding-top: 48px;
-    border-style: solid;
-    border-top: none;
-    border-left-color: #E7E9FC;
-    border-right-color: #E7E9FC;
-    border-bottom-color: #E7E9FC;
+.portfolio-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
 }
+
+.list-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+
 
 /* Footer */
 
 .container-footer {
     background-color: #2E2F42;
     height: 312px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-left: 156px;
-    padding-top: 100px;
 
+}
+
+.logo-link {
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
 }
 
 .logo-studio-footer {
@@ -197,5 +211,6 @@ h1 {
 
 .footer-text {
     color: #F4F4FD;
-    width: 264px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
