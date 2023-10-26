@@ -60,10 +60,8 @@ ul {
     letter-spacing: 0.02em;
     color: #434455;
     }
-}
 
-.contacts-item:hover,
-.contacts-item:focus {
+.contacts-item:hover, .contacts-item:focus {
     color: #404BBF;
 }
 
@@ -128,10 +126,11 @@ h1 {
     letter-spacing: 0.02em;
 }
 
+
 /* Our Team */
 
 .container-team {
-    background-color: #FFFFFF;
+    background-color: #f4f4fd;
 }
 
 .team-title {
@@ -141,6 +140,10 @@ h1 {
     text-transform: capitalize;
     letter-spacing: 0.02em;
     color:#2E2F42
+}
+
+.team-list-item {
+    background-color: #FFFFFF;
 }
 
 /* Our portfolio */
